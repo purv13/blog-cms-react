@@ -1,0 +1,56 @@
+.blog-gradient-card {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 50%, #21d4fd 100%);
+  box-shadow: 0 4px 24px 0 rgba(80, 80, 120, 0.12);
+  border-radius: 1.25rem;
+  border: none;
+  transition: transform 0.25s cubic-bezier(.4,2,.3,.7), box-shadow 0.25s, background 0.4s;
+  padding: 0;
+  margin-bottom: 1rem;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.blog-gradient-card:hover {
+  transform: scale(1.04) translateY(-4px) rotateZ(-1deg);
+  box-shadow: 0 8px 32px 0 rgba(80, 80, 120, 0.18);
+  background: linear-gradient(135deg, #21d4fd 0%, #b721ff 100%);
+}
+
+.blog-gradient-card .card-body {
+  background: rgba(255,255,255,0.92);
+  border-radius: 1.25rem;
+  padding: 1.5rem;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-gradient-card .card-title a {
+  color: #22223b;
+  font-weight: 700;
+  font-size: 1.25rem;
+  transition: color 0.2s;
+}
+
+.blog-gradient-card .card-title a:hover {
+  color: #4f46e5;
+}
+
+.blog-gradient-card .badge {
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.blog-gradient-card .btn {
+  font-size: 1.1rem;
+  border-radius: 50%;
+  width: 2.2rem;
+  height: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px 0 rgba(80, 80, 120, 0.10);
+} 
