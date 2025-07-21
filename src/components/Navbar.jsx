@@ -32,7 +32,11 @@ const Navbar = () => {
                   <button className="btn btn-outline-danger ms-2" onClick={handleLogout}>Logout</button>
                 </li>
               </>
-            ) : null}
+            ) : (
+              <li className="nav-item">
+                <Link className="nav-link" to="/login">Admin Login</Link>
+              </li>
+            )}
           </ul>
         </div>
       </div>
