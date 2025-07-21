@@ -168,3 +168,17 @@ input.form-control:focus, select.form-select:focus, textarea.form-control:focus 
   min-height: 100vh;
   padding-top: 0;
 }
+
+@media (max-width: 576px) {
+  .custom-navbar .navbar-brand {
+    font-size: 1.1rem;
+    padding-left: 0.5rem;
+  }
+  .custom-navbar .nav-link, .custom-navbar .btn {
+    font-size: 0.95rem;
+    padding: 0.5rem 0.7rem;
+  }
+  .custom-navbar {
+    padding: 0.3rem 0.5rem !important;
+  }
+}
